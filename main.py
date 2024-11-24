@@ -105,18 +105,6 @@ class Face_recognotion_system :
     def attendence_data(self):
         self.new_window=Toplevel(self.root)
         self.app=attendence(self.new_window)
-    
-
-        
-        
-  
-        
-
-
-         
-
-
-
 if __name__ == "__main__":
      root=Tk()
      obj= Face_recognotion_system(root)
